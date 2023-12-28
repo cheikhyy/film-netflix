@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -36,3 +37,67 @@
     transform: rotate(360deg);
   }
 }
+label{
+  margin: .5rem;
+  margin-top: .8rem;
+}
+input{
+  border-radius: 5px;
+}
+h3{
+  margin-left: 3rem;
+  display: block;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+p{
+  display: flex;
+  width: 23rem;
+  margin-left: 2rem;
+  line-height: 22px;
+  max-width: 100%;
+}
+span{
+font-size: 18px;
+font-weight: 500;
+} 
+nav{
+  position: fixed;
+  background:red;
+  width: 100%;
+  height: 4rem;
+}
+.filter{
+  position: fixed;
+   margin-left: 55rem; 
+}
+#logo img{
+  width: 8rem;
+  margin-top: -2rem;
+  margin-left: -70rem;
+}
+.ttl{
+  margin-top: -65rem;
+ margin-left: 3rem;
+ /* position: fixed; */
+}
+#movies{
+  width: 43rem;
+  margin-left: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.6);
+}
+#pomme{
+  font-weight: 800;
+  text-shadow: 2px 2px 4px #fff;
+  word-wrap: break-word;
+  margin: 0 0 0.4em;
+  color: #282c34;
+}
+.ttl p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #222;
+  line-height: 1.3;
+}
+
